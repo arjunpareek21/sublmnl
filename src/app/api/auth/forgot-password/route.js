@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 import { findUserByEmail } from "@/server/models/user"
-import { createPasswordReset } from "@/server/models/passwordReset"
+import { createPasswordReset } from "@/server/models/PasswordReset"
 import { sendPasswordResetEmail } from "@/lib/nodemailer"
 import crypto from "crypto"
 

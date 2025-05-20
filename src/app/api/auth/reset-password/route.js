@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import { findValidToken, deleteToken } from "@/server/models/passwordReset"
+import { findValidToken, deleteToken } from "@/server/models/PasswordReset"
 import { findUserById, updateUser } from "@/server/models/user"
 
 export async function POST(req) {
